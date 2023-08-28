@@ -1,4 +1,4 @@
-local Fix = 1
+local Fix = 0
 local player = game.Players.LocalPlayer
 
 if Fix == 1 then
