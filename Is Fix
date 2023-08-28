@@ -1,7 +1,5 @@
-local Fix = True
+local Fix = true
 
-if Fix == True then
-
-Player:Kick("Script Is Update or Fix")
-
+if Fix == true then
+    game.Players.LocalPlayer:Kick("Script Is Update or Fix")
 end
