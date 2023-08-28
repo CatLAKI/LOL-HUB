@@ -2,7 +2,7 @@ local Player = game.Players.LocalPlayer
 
 -- Define the hardware IDs in a table
 local Hwids = {
-    "33AC7C56-835F-48D8-958B-9CCDBD319A38", --Not Work
+    "", --Not Work
 }
 
 -- You need to define GetHwid here before using it in the loop
