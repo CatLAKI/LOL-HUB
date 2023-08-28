@@ -2,8 +2,6 @@ local Fix = False
 
 if Fix == True then
 
-
-
-else
+Player:Kick("Script Is Update or Fix")
 
 end
