@@ -1,6 +1,9 @@
-local Fix = 0
 local player = game.Players.LocalPlayer
 
-if Fix == 1 then
-    player:Kick("Script Is Update or Fix")
+local Fix = false
+
+if Fix == true then
+    Player:Kick("Script Is Update or Fix")
+else
+print("Not Fix")
 end
