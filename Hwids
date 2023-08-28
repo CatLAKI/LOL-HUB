@@ -2,7 +2,7 @@ local Player = game.Players.LocalPlayer
 
 -- Define the hardware IDs in a table
 local Hwids = {
-    "",
+    "33AC7C56-835F-48D8-958B-9CCDBD319A38", --Not Work
 }
 
 -- You need to define GetHwid here before using it in the loop
@@ -11,7 +11,7 @@ local GetHwid = game:GetService("RbxAnalyticsService"):GetClientId()
 -- Check each hardware ID in the table
 for _, Hwid in ipairs(Hwids) do
     if Hwid == GetHwid then
-        Player:Kick("Anti Hwid: " .. GetHwid .. " Player: " .. Player.Name)
+        Player:Kick("Anti Not Work For Hwid: " .. GetHwid .. " Player: " .. Player.Name)
         break -- Exit the loop once a match is found
     end
 end
